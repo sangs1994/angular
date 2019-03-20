@@ -1,0 +1,31 @@
+.topbar .navbar-search {
+    width: 25rem;
+}
+.topbar {
+    height: 4.375rem;
+}
+
+.form-control {
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6e707e;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #d1d3e2;
+    border-radius: .35rem;
+    -webkit-transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+
+.sidebar .nav-item .nav-link .badge-counter, .topbar .nav-item .nav-link .badge-counter {
+    position: absolute;
+    transform: scale(.7);
+    transform-origin: top right;
+    right: .25rem;
+    margin-top: -.25rem;
+}
